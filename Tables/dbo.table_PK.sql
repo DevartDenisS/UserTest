@@ -1,0 +1,8 @@
+CREATE TABLE [dbo].[table_PK]
+(
+[uk] [int] NOT NULL,
+[c1] [int] NULL
+) ON [PRIMARY]
+GO
+ALTER TABLE [dbo].[table_PK] ADD CONSTRAINT [PK__table_PK__32140BAB63714B8F] PRIMARY KEY CLUSTERED ([uk]) ON [PRIMARY]
+GO
