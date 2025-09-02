@@ -6,3 +6,18 @@
 )
 ON [prtId_Schema] ([prtId])
 GO
+
+CREATE INDEX [Idx_aKey]
+  ON [dbo].[f_Ledger] ([prtId], [aKey])
+  ON [prtId_Schema] ([prtId])
+GO
+
+CREATE INDEX [Idx_cKey]
+  ON [dbo].[f_Ledger] ([prtId], [cKey])
+  ON [prtId_Schema] ([prtId])
+GO
+
+CREATE INDEX [Idx_prt_aKey]
+  ON [dbo].[f_Ledger] ([prtId], [aKey])
+  ON [prtId_Schema] ([prtId])
+GO
