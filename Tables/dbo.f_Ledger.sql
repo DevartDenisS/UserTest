@@ -2,8 +2,7 @@
   [prtId] [int] NOT NULL,
   [aKey] [int] NOT NULL,
   [cKey] [int] NOT NULL,
-  [SomeData] [nvarchar](100) NULL,
-  [NewCol] [nvarchar](50) NULL
+  [SomeData] [nvarchar](100) NULL
 )
 ON [prtId_Schema] ([prtId])
 GO
