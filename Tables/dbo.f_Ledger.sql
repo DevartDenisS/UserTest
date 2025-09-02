@@ -1,0 +1,8 @@
+﻿CREATE TABLE [dbo].[f_Ledger] (
+  [prtId] [int] NOT NULL,
+  [aKey] [int] NOT NULL,
+  [cKey] [int] NOT NULL,
+  [SomeData] [nvarchar](100) NULL
+)
+ON [prtId_Schema] ([prtId])
+GO
