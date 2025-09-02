@@ -6,15 +6,3 @@
 )
 ON [prtId_Schema] ([prtId])
 GO
-
-CREATE INDEX [Idx_aKey]
-  ON [dbo].[f_Ledger] ([prtId], [aKey])
-  WITH (FILLFACTOR = 100)
-  ON [prtId_Schema] ([prtId])
-GO
-
-CREATE INDEX [Idx_cKey]
-  ON [dbo].[f_Ledger] ([prtId], [cKey])
-  WITH (FILLFACTOR = 100)
-  ON [prtId_Schema] ([prtId])
-GO
