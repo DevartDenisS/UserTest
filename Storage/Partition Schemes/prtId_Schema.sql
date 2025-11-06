@@ -1,3 +1,0 @@
-﻿CREATE PARTITION SCHEME [prtId_Schema]
-  AS PARTITION [pfRangePrtId] ALL TO ([PRIMARY])
-GO

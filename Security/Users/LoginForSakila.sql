@@ -1,0 +1,3 @@
+﻿CREATE USER [LoginForSakila]
+  WITHOUT LOGIN
+GO
