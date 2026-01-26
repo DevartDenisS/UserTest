@@ -12,6 +12,7 @@
   `rating` ENUM('G','PG','PG-13','R','NC-17') DEFAULT 'G',
   `special_features` SET('Trailers','Commentaries','Deleted Scenes','Behind the Scenes') DEFAULT NULL,
   `last_update` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  `rating_code` CHAR(2) DEFAULT NULL,
   PRIMARY KEY (film_id)
 )
 ENGINE = INNODB,
