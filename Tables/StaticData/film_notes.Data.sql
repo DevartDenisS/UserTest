@@ -6,5 +6,3 @@ INSERT INTO film_notes(id, film_id, note_text, created_at, created_by) VALUES
 (3, 3, 'Award-winning movie, recommended for promotion', '2026-02-05 17:57:38', 'editor');
 INSERT INTO film_notes(id, film_id, note_text, created_at, created_by) VALUES
 (4, 4, 'Family-friendly content, suitable for all ages', '2026-02-05 17:57:38', 'editor');
-INSERT INTO film_notes(id, film_id, note_text, created_at, created_by) VALUES
-(5, 5, 'Cult classic with loyal fan base', '2026-02-05 17:57:38', 'system');
