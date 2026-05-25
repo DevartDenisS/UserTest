@@ -106,5 +106,6 @@
     <Build Include="dbo\Synonyms\emp.sql" />
     <Build Include="dbo\XMLSchemaCollections\customer_xml_schema.sql" />
     <Build Include="dbo\Sequences\seq_order_number.sql" />
+    <Build Include="dbo\Tables\Table1.sql" />
   </ItemGroup>
 </Project>
