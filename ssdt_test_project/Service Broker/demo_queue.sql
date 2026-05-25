@@ -1,5 +1,0 @@
-﻿CREATE QUEUE [dbo].[demo_queue] WITH STATUS = ON,
-RETENTION = OFF
-ON [PRIMARY]
-GO
-;
