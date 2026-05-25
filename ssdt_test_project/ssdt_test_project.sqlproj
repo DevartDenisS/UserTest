@@ -85,7 +85,6 @@
     <Build Include="sales\Tables\orders.sql" />
     <Build Include="sales\Tables\order_items.sql" />
     <Build Include="audit\Tables\order_audit.sql" />
-    <Build Include="dbo\Tables\memory_table.sql" />
     <Build Include="sales\Views\vw_order_summary.sql" />
     <Build Include="Storage\demo_mod.sql" />
     <Build Include="Security\reporting_role.sql" />
