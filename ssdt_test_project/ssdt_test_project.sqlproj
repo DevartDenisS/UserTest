@@ -109,6 +109,5 @@
     <Build Include="dbo\Tables\Table1.sql" />
     <Build Include="Tables\dbo.Test2.sql" />
     <Build Include="dbo\Tables\Table2.sql" />
-    <Build Include="dbo\Tables\dbo.Test3.sql" />
   </ItemGroup>
 </Project>
