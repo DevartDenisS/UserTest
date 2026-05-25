@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="SSDTProject1.sqlproj">
+    <Build />
+    <Deploy />
+  </Project>
+</Solution>
