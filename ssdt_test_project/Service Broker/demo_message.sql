@@ -1,0 +1,4 @@
+﻿CREATE MESSAGE TYPE [demo_message]
+    AUTHORIZATION [dbo]
+    VALIDATION = NONE;
+
