@@ -66,6 +66,7 @@
     <Folder Include="audit\Tables\" />
     <Folder Include="dbo\" />
     <Folder Include="dbo\Tables\" />
+    <Folder Include="Tables\" />
     <Folder Include="sales\Views\" />
     <Folder Include="Storage\" />
     <Folder Include="Security\" />
@@ -106,6 +107,8 @@
     <Build Include="dbo\XMLSchemaCollections\customer_xml_schema.sql" />
     <Build Include="dbo\Sequences\seq_order_number.sql" />
     <Build Include="dbo\Tables\Table1.sql" />
+    <Build Include="Tables\dbo.Test2.sql" />
     <Build Include="dbo\Tables\Table2.sql" />
+    <Build Include="dbo\Tables\dbo.Test3.sql" />
   </ItemGroup>
 </Project>
