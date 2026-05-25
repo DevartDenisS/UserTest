@@ -1,0 +1,3 @@
+﻿CREATE MESSAGE TYPE [demo_message]
+VALIDATION = NONE
+GO

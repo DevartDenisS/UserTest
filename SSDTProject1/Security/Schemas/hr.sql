@@ -1,0 +1,2 @@
+﻿CREATE SCHEMA [hr]
+GO

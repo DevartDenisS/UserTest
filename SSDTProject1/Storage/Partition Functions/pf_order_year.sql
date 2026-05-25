@@ -1,0 +1,3 @@
+﻿CREATE PARTITION FUNCTION [pf_order_year] ([date])
+  AS RANGE FOR VALUES ('2023-12-31', '2024-12-31')
+GO
